@@ -6,4 +6,7 @@
             group:
                     name: ibm
                     state: present
-
+          - name: Add user ahar
+            user:
+                    name: ahar
+                    state: present
