@@ -1,0 +1,9 @@
+---
+- name: Create group and add user
+  hosts: all
+  tasks:
+          - name: create group ibm
+            group:
+                    name: ibm
+                    state: present
+
