@@ -6,7 +6,8 @@
             group:
                     name: ibm
                     state: present
-          - name: Add user ahar
+          - name: create user
             user:
-                    name: ahar
+                    name: ram
                     state: present
+                    shell: /bin/bash
